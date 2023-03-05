@@ -1,13 +1,14 @@
 package Tarea7;
 
 public class Persona {
-	//atributos
+	// atributos
 	private String Nombre;
 	private String apellido;
 	private String direccion;
 	private int movil;
 	private String correo;
-	//constructor
+
+	// constructor
 	public Persona(String Nombre, String apellido, String direccion, int movil, String correo) {
 		this.setNombre(Nombre);
 		this.setApellido(apellido);
@@ -15,7 +16,7 @@ public class Persona {
 		this.setMovil(movil);
 		this.setCorreo(correo);
 	}
-	
+
 	/**
 	 * @return de nombre
 	 */
@@ -85,6 +86,5 @@ public class Persona {
 	public void setCorreo(String correo) {
 		this.correo = correo;
 	}
-	
-	
+
 }

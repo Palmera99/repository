@@ -1,20 +1,21 @@
 package Tarea7;
 
+//clase
 public class Ventas {
 	private Vendedor rut;
 	private int cantidad;
 	private Galleta precio;
-	
+
 	public Ventas(Vendedor rut, int cantidad, Galleta precio) {
 		this.setRut(rut);
 		this.setCantidad(cantidad);
 		this.setPrecio(precio);
 	}
-	
+
 	public float total(Galleta galleta) {
 		int var1 = cantidad;
-		float resultado = galleta.getPrecio()* var1;
-		return resultado; 
+		float resultado = galleta.getPrecio() * var1;
+		return resultado;
 	}
 
 	/**
@@ -58,7 +59,5 @@ public class Ventas {
 	public void setPrecio(Galleta precio) {
 		this.precio = precio;
 	}
-	
-	
-	
+
 }

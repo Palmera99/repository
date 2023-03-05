@@ -3,7 +3,7 @@ package Tarea7;
 public class Galleta {
 	private String TipoGalleta;
 	private float precio;
-	
+
 	public Galleta(String TipoGalleta, float precio) {
 		this.setPrecio(precio);
 		this.setTipoGalleta(TipoGalleta);
