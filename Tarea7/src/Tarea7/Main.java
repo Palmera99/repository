@@ -8,7 +8,6 @@ public class Main {
 		Ventas venta1 = new Ventas(vendedor1, 12, galleta1);
 
 		float resultado = venta1.total(galleta1);
-		System.out.println(resultado);
 		System.out.println("El vendedor "+vendedor1.getRut() + " realizo una venta de "+ resultado);
 		
 	}

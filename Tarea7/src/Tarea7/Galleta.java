@@ -8,7 +8,9 @@ public class Galleta {
 		this.setPrecio(precio);
 		this.setTipoGalleta(TipoGalleta);
 	}
-
+	
+	//accesadores y mutadores
+	
 	/**
 	 * @return the tipoGalleta
 	 */

@@ -1,5 +1,5 @@
 package Tarea7;
-
+//clase padre de vendedor
 public class Persona {
 	// atributos
 	private String Nombre;
@@ -16,6 +16,8 @@ public class Persona {
 		this.setMovil(movil);
 		this.setCorreo(correo);
 	}
+	
+	//accesadores y mutadores
 
 	/**
 	 * @return de nombre

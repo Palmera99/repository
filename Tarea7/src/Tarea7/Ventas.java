@@ -17,7 +17,9 @@ public class Ventas {
 		float resultado = galleta.getPrecio() * var1;
 		return resultado;
 	}
-
+	
+	//accesadores y mutadores
+	
 	/**
 	 * @return the rut
 	 */
