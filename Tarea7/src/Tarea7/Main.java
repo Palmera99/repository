@@ -9,7 +9,7 @@ public class Main {
 
 		float resultado = venta1.total(galleta1);
 		System.out.println(resultado);
-		
+		System.out.println("El vendedor "+vendedor1.getRut() + " realizo una venta de "+ resultado);
 		
 	}
 
